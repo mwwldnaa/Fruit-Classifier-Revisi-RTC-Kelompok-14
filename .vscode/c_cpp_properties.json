@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include/x86_64-linux-gnu/qt6/**",
+                "/usr/include/qt6/**",
+                "/usr/include/x86_64-linux-gnu/qt5/**",
+                "/usr/include/qt5/**",
+                "/usr/include/c++/11/**",
+                "/usr/include/x86_64-linux-gnu/c++/11/**"
+            ],
+            "defines": [
+                "QT_CORE_LIB",
+                "QT_GUI_LIB",
+                "QT_WIDGETS_LIB"
+            ],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64",
+            "configurationProvider": "ms-vscode.cmake-tools",
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json"
+        }
+    ],
+    "version": 4
+}

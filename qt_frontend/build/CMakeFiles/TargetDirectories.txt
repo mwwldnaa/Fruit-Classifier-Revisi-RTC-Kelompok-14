@@ -1,0 +1,5 @@
+/home/juwita/Documents/fruit_classifier/qt_frontend/build/CMakeFiles/FruitClassifier.dir
+/home/juwita/Documents/fruit_classifier/qt_frontend/build/CMakeFiles/edit_cache.dir
+/home/juwita/Documents/fruit_classifier/qt_frontend/build/CMakeFiles/rebuild_cache.dir
+/home/juwita/Documents/fruit_classifier/qt_frontend/build/CMakeFiles/FruitClassifier_autogen_timestamp_deps.dir
+/home/juwita/Documents/fruit_classifier/qt_frontend/build/CMakeFiles/FruitClassifier_autogen.dir
