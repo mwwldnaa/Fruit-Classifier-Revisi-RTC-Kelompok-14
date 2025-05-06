@@ -28,14 +28,14 @@ Proyek ini mengimplementasikan jaringan saraf tiruan untuk klasifikasi buah meng
 
 ## Format Dataset
 
-Sistem mengharapkan file CSV dengan kolom berikut:
+Sistem memasukkan file CSV dengan 4 fitur input utama berikut:
 - `weight`: Berat buah dalam gram
 - `size`: Ukuran buah dalam cm
 - `width`: Lebar buah dalam cm
 - `height`: Tinggi buah dalam cm
 - `label`: Kategori buah (contoh: "apple", "orange")
 
-Contoh baris:
+Contoh dataset yang digunakan:
 ```
 150,7,6,6,apple
 ```
@@ -64,15 +64,15 @@ Jaringan saraf mencapai akurasi tinggi (biasanya >95% dengan pelatihan yang cuku
 - **Antarmuka Cross-language**: FFI kompatibel-C untuk komunikasi Rust-Qt
 - **Normalisasi**: Penskalaan fitur otomatis selama pelatihan dan prediksi
 
-## Cara Membangun
+## Cara Build
 
-1. Bangun library Rust:
+1. Build library Rust:
    ```bash
    cd rust-backend
    cargo build --release
    ```
 
-2. Bangun aplikasi Qt:
+2. Build aplikasi Qt:
    ```bash
    mkdir build && cd build
    qmake ..
