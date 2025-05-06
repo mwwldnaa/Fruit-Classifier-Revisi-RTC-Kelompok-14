@@ -85,8 +85,4 @@ Jaringan saraf mencapai akurasi tinggi (biasanya >95% dengan pelatihan yang cuku
 - Qt 5+ (untuk GUI)
 - Kompiler yang kompatibel dengan C++17
 
-## Dokumentasi Hasil
 
-![Screenshot](Screenshot.png)
-
-Tangkapan layar menunjukkan antarmuka aplikasi dengan grafik progres pelatihan dan fungsi prediksi.
