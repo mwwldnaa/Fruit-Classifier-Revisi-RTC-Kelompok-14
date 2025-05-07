@@ -133,7 +133,7 @@ Contoh format dataset yang digunakan:
 
 ## Kinerja
 
-Jaringan saraf mencapai akurasi tinggi (biasanya >95% dengan pelatihan yang cukup) pada dataset yang diformat dengan benar. Antarmuka memberikan umpan balik visual tentang progres pelatihan dan hasil akhir.
+Jaringan saraf mencapai akurasi tinggi (nilaiakurasi mencapai >95% dengan pelatihan yang cukup) pada dataset yang diformat dengan benar. Antarmuka memberikan umpan balik visual tentang progres pelatihan dan hasil akhir.
 
 
 ## Cara Build
