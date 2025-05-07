@@ -1,5 +1,5 @@
 # Fruit Classifier Neural Network
-#Supervisor:
+# Supervisor:
 Ahmad Radhy, S.Si., M.Si
 
 # KELOMPOK 14
