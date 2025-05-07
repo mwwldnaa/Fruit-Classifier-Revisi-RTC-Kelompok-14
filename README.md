@@ -68,7 +68,7 @@ Contoh format dataset yang digunakan:
     * `load_dataset` function: Memuat data dari file CSV ke dalam vektor `Vec<FruitSample>`. Fungsi ini juga melakukan validasi dasar terhadap data yang dimuat untuk memastikan tidak ada pengukuran yang tidak valid (misalnya, nilai negatif atau nol).
 
 * **`lib.rs`**:
-    * Merupakan library yang menyediakan fungsi-fungsi yang dapat dipanggil dari kode C.
+  Merupakan library yang menyediakan fungsi-fungsi yang dapat dipanggil dari kode C.
     * Structs: Mendefinisikan struktur data untuk `FruitSample`, `Normalizer`, `NeuralNet`, dan `TrainingResult`.
         * `Normalizer`: Digunakan untuk menghitung dan menerapkan normalisasi pada fitur-fitur data.
         * `NeuralNet`: Mengimplementasikan arsitektur dan logika pelatihan jaringan saraf.
@@ -80,10 +80,10 @@ Contoh format dataset yang digunakan:
         * `train_one_epoch`: Melakukan satu epoch pelatihan dengan backpropagation dan pembaruan bobot.
         * `cross_entropy_loss`: Menghitung fungsi loss cross-entropy.
         * `evaluate`: Menghitung akurasi model.
-    * Fungsi extern "C" (`train_network`, `predict`, `free_array`, `free_string`): Menyediakan antarmuka untuk berinteraksi dengan library dari kode C, termasuk melatih jaringan, membuat prediksi, dan mengelola memori. Perhatikan bahwa implementasi `predict` dalam `lib.rs` adalah prediksi sederhana dan bukan yang terlatih dari model.
+    * Fungsi extern "C" (`train_network`, `predict`, `free_array`, `free_string`): Menyediakan antarmuka untuk berinteraksi dengan library dari kode C, termasuk melatih jaringan, membuat prediksi, dan mengelola memori.
 
 * **`main.rs`**:
-    * Merupakan program utama yang menjalankan pelatihan model dan menyediakan mode interaktif untuk pengujian manual.
+  Merupakan program utama yang menjalankan pelatihan model dan menyediakan mode interaktif untuk pengujian manual.
     * `train_model` function:
         * Memuat dataset.
         * Memisahkan data menjadi set pelatihan dan pengujian.
