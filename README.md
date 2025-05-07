@@ -1,3 +1,8 @@
+# KELOMPOK 14
+1) Juwita Maulidina Mahmudah || 2042221038
+2) Dimas Dwi Firmansyah || 2042221050
+3) Litakuni Windriya Ramadhani || 2042221119
+
 # Fruit Classifier Neural Network
 
 ## Gambaran Umum
