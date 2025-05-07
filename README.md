@@ -68,14 +68,19 @@ Jaringan saraf mencapai akurasi tinggi (biasanya >95% dengan pelatihan yang cuku
 
 1. Build library Rust:
    ```bash
-   cd rust-backend
-   cargo build --release
+   cd rust_backend
+   cargo clean
+   cargo build
+   cargo run --release (agar terhubung dengan Qt)
    ```
 
 2. Build aplikasi Qt:
    ```bash
-   mkdir build && cd build
-   qmake ..
+   cd fruit_classifier/qt_frontend
+   rm -rf build
+   mkdir build
+   cd build
+   cmake ..
    make
    ```
 
