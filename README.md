@@ -1,9 +1,16 @@
+# Fruit Classifier Neural Network
+#Supervisor:
+Ahmad Radhy, S.Si., M.Si
+
 # KELOMPOK 14
 1) Juwita Maulidina Mahmudah || 2042221038
 2) Dimas Dwi Firmansyah || 2042221050
 3) Litakuni Windriya Ramadhani || 2042221119
 
-# Fruit Classifier Neural Network
+Departemen Teknik Instrumentasi 
+Institut Teknologi Sepuluh Nopember
+Surabaya
+2025
 
 ## Gambaran Umum
 
