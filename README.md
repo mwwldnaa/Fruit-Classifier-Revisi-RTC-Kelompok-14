@@ -14,7 +14,7 @@ Surabaya
 
 ## Gambaran Umum
 
-Proyek ini mengimplementasikan jaringan saraf tiruan untuk klasifikasi buah menggunakan Rust untuk fungsi intelijen mesin inti dan antarmuka berbasis Qt untuk interaksi. Sistem dapat mengklasifikasikan buah berdasarkan karakteristik fisiknya (berat, ukuran, lebar, tinggi) dan memberikan umpan balik visual tentang proses pelatihan.
+Proyek ini mengimplementasikan jaringan saraf tiruan untuk klasifikasi buah menggunakan Rust sebagai logika neural network dan antarmuka berbasis Qt untuk interaksi. Sistem dapat mengklasifikasikan buah berdasarkan karakteristik fisiknya (berat, ukuran, lebar, tinggi) dan memberikan umpan balik visual tentang proses pelatihan.
 
 ## Fitur Utama
 
